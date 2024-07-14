@@ -6,19 +6,21 @@
     <title>ISMT Collage</title>
     <link rel="stylesheet" href="Assets/CSS/Login-Css.css">
     <link rel="icon" href="Assets/Images/Favicon.webp">
+    
 </head>
-<body>
+<body background-image="Assets/Images/Login-background.jpg" >
         <div class="login-box" >
-            <img src="Assets/Images/ISMT LOGO.jpeg" class="image" alt="ISMT-logo" height="80px" width="80px">
-            <h1>Login</h1>
-            <form>
+            <img src="Assets/Images/logo2.jpg" class="image" alt="ISMT-logo" height="80px" width="80px">
+           <div class="header"> Login</div>
+            <form method="post">
                 <div class="input-box">
-                    <label>Username : </label>
-                    <input type="text" required>
+                    <label>Username</label> <br>
+                    <input type="text" name="username" required placeholder="Enter your username" >
                 </div>
                 <div class="input-box">
-                    <label>Password  : </label>
-                    <input type="password" required>
+                    <label>Password</label> <br>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    
                 </div>
                 <div class="remember">
                     <label><input type="checkbox">Remember me</label>
