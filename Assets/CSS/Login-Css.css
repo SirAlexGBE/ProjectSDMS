@@ -1,16 +1,19 @@
-.background{
+body{
     background-image: url("Assets/Images/Login-background.jpg");
-    height: 100vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .login-box{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #F2811D;
+    padding: 10px;
     border-radius: 15px;
     width: 280px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.input-box{
+    margin: 8px;
 }
