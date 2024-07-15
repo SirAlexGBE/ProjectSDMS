@@ -6,10 +6,7 @@
     <title>ISMT Collage</title>
     <link rel="icon" href="Images/Favicon.webp">
     <link rel="stylesheet" href="CSS/index.css">
-    <style>
-    
-    </style>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
         <div class="login-box" >
@@ -18,16 +15,25 @@
             <form method="post">
                 <div class="input-box">
                     <label>Username</label> <br>
-                    <input type="text" name="username" required placeholder="Enter your username" >
+                    <div class="userbox">
+                        <i class="fa fa-user-circle" aria-hidden="true" style="color: black; size: 10px;"></i> 
+                        <input type="text" title="Username" class="ibox" name="username" required placeholder="Enter your username" >
+                    </div>
                 </div>
                 <div class="input-box">
                     <label>Password</label> <br>
-                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div class="passbox">
+                        <i class="fa fa-lock" aria-hidden="true" style="color: black;"></i>   
+                        <input type="password" title="Password" class="ibox" name="password" placeholder="Enter your password" required>
+                        <i class="fa fa-eye" aria-hidden="true" style="color: black;"></i>
+                    </div>
                     
                 </div>
                 <div class="remember">
                     <label><input type="checkbox">Remember me</label>
+                    <a href="forgetpass.html" title="Forget Password?" target="_blank">Forget Password?</a>
                 </div>
+                <br>
                 <button type="submit">Login</button>
             </form>
         </div>

@@ -17,9 +17,6 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.input-box{
-    margin: 8px;
-}
 .image{
     margin: 10px 20px 0 0;
     display: flex;
@@ -46,38 +43,76 @@ body{
     margin: 15px 0 15px 0;
 }
 form{
-    text-align: left;
     margin: 40px auto;
     padding: 0 20px 20px 20px;
-    
+    height: fit-content;    
 }
-.input-box {
-  justify-content: center;
-  align-self: center;
-  margin-left: 80px;
+.ibox{
+    border: none;
 }
+.ibox:focus{
+    outline: none;
+}
+
 .input-box label{
 font-size: 1em;
+margin-left: 100px;;
 }
-.input-box input{
+.userbox{
+    background-color: white;
+    margin-left: 100px;
     width: 250px;
     height: 30px;
     border-radius: 5px;
-    border: white 1px solid;
+    border: rgb(0, 0, 0) 2px solid;
     box-sizing: border-box;
+    padding: 5px;
 }
-.remember{
-    margin-left: 80px;
+
+.passbox{
+    background-color: white;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(0, 0, 0) 2px solid;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: none;
+    padding-right: 0%;
 }
 button{
-    margin-left: 230px;
+    margin-left: 260px;
     background-color: #F2811D;
     color: white;
-    border: white 1px solid;
+    border: white 2px solid;
     border-radius: 10px;
     padding: 5px;
     font-size: 1em;
     font-weight: bold;
     width: 100px;
     height: 30px;
+}
+button:hover{
+    background-color: white;
+    color: #F2811D;
+}
+.remember{
+    margin-left: 100px;
+}
+.remember label:hover {
+    color: #F2811D;
+}
+.fa-eye{
+    display: flex;
+    float: right;
+    padding-right: 5px;
+}
+a{
+    margin-left: 30px;
+    font-size:smaller ;
+    color: white;
+}
+a:hover{
+    color: #F2811D;
 }
