@@ -1,0 +1,36 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .box{
+  width: 200px;
+  height: 20px;
+  border: 2px solid;
+  background-color: #131140;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  justify-items: center;
+  color: white;
+}
+
+.box1{
+  width: 200px;
+  height: 20px;
+  border: 2px solid;
+  background-color: #131140;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  justify-items: center;
+  color: white;
+}
+
+.student-list{
+  color: white;
+  align-items: center;
+}
+
