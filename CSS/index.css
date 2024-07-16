@@ -105,7 +105,7 @@ button:hover{
 .remember label:hover {
     color: #F2811D;
 }
-.fa-eye{
+.fa-eye-slash{
     display: flex;
     float: right;
     padding-right: 5px;
