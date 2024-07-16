@@ -41,22 +41,23 @@ body{
     border: white 1px solid;
 }
 .addnew{
-    width: 350px;
+    width: 400px;
     height: 220px;
     background-color: #131140;
-    margin-left: 15px;
     display: flex;
     float: left;
     border: rgb(255, 255, 255) 2px solid;
     border-radius: 10px;
-    margin-top: 5px;
     padding: 5px;
     justify-content: center;
     text-align: center;
     font-weight: bold;
     color: white;
+    margin-top: 20px;
+    margin-left: 15px;
 }
-.addnew h3{
+.addnew p{
+    margin-left: 50px;
     margin-top: 10px;
     justify-content: center;
     text-align: center;
@@ -66,24 +67,24 @@ body{
     text-decoration: underline;
 
 }
-.addnew button{
-    display: flex;
-    float: left;
+.btn{
     background-color: #F2811D;
     color: white;
     border: white 2px solid;
     border-radius: 10px;
-    padding: 5px;
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    width: 100px;
+    width: 90px;
     height: 30px;
-    margin-top: 150px;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     justify-content: center;
-    text-align: center;
 }
-.addnew button:hover{
+.btn:hover{
     background-color: white;
     color: #F2811D;
+    border-color: #F2811D;
 }
