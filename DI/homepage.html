@@ -1,55 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DI Home page</title>
-  <link rel="icon" href="../Images/Favicon.webp">
-  <link rel="stylesheet" href="../CSS/DI-Home.css">
-</head>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DI Home page</title>
+   <link rel="icon" href="../Images/Favicon.webp">
+   <link rel="stylesheet" href="../CSS/DI-Home.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  </head>
   <body>
-    <div class="container">
-      <div class="logo"> <img src="../Images\logo-sunderland.png" alt="ismt-logo">  </div>
-      <div class="header">ISMT COLLEGE CHITWAN BHARATPUR-12</div>
-      <div class="clearer"></div>
-
-   
-
-      <div class="searchengine">
+    <!-- header Start -->
+     <div class="container">
+       <div class="logo"> <img src="../Images\logo-sunderland.png" alt="ismt-logo">  </div>
+       <div class="header"> <h4>ISMT COLLEGE CHITWAN, <br>BHARATPUR-12 </h4> </div>
+      </div>
+    <!-- Header end-->
+    <!-- Search Start -->
+      <div class="search">
         <form action="Search">
-          <input type="text"  placeholder="Search students"  required   >
+          <input type="text"  placeholder="Search students" required> 
+          <i class="fa fa-search" aria-hidden="true"></i>
         </form>
       </div>
-              <div class="option">
-      <form action="Classes" method="get">
-        <label for="">Select class</label>
-        <select name="class" id="select class">
-          <option value=""></option>
-          <option value="class">Bsc.IT First Semester SEC.A</option>
-          <option value="class">Bsc.IT First Semester SEC.B</option>
-          <option value="class">Bsc.IT First Semester SEC.C</option>
-          <option value="class">Bsc.IT Second Semester SEC.A</option>
-          <option value="class">Bsc.IT Second Semester SEC.B</option>
-          <option value="class">Bsc.IT Third Semester SEC.A</option>
-          <option value="class">Bsc.IT Third Semester SEC.B</option>
-          <option value="class">Bsc.IT Fourth Semester SEC.A</option>
-          <option value="class">Bsc.IT Fourth Semester SEC.B</option>
-          <option value="class">Bsc.IT Fifth Semester SEC.A</option>
-          <option value="class">Bsc.IT Fifth Semester SEC.B</option>
-          <option value="class">Bsc.IT Sixth Semester SEC.A</option>
-          <option value="class">Bsc.IT Sixth Semester SEC.B</option>
-          <option value="class">BHM First Semester</option>
-          <option value="class">BHM Second Semester</option>
-          <option value="class">BHM Third Semester</option>
-          <option value="class">BHM Fourth Semester</option>
-          <option value="class">BHM Fifth Semester</option>
-          <option value="class">BHM Sixth Semester</option>
-          <option value="class">Cyber Security First Semester</option>
-          <option value="class">Cyber Security Second Semester</option>
-          <option value="class">MBA</option>
-        </select>
-      </form>
-    </div>
-  </div>
-</body>
+    <!-- Search End -->
+    <!-- Option Start -->
+        <div class="option">
+          <form action="Classes" method="get">
+            <select name="class" id="select class" >
+             <option value="class">Select Class</option>
+             <option value="class">Bsc.IT First Semester SEC.A</option>
+             <option value="class">Bsc.IT First Semester SEC.B</option>
+             <option value="class">Bsc.IT First Semester SEC.C</option>
+             <option value="class">Bsc.IT Second Semester SEC.A</option>
+             <option value="class">Bsc.IT Second Semester SEC.B</option>
+             <option value="class">Bsc.IT Third Semester SEC.A</option>
+             <option value="class">Bsc.IT Third Semester SEC.B</option>
+             <option value="class">Bsc.IT Fourth Semester SEC.A</option>
+             <option value="class">Bsc.IT Fourth Semester SEC.B</option>
+             <option value="class">Bsc.IT Fifth Semester SEC.A</option>
+             <option value="class">Bsc.IT Fifth Semester SEC.B</option>
+             <option value="class">Bsc.IT Sixth Semester SEC.A</option>
+             <option value="class">Bsc.IT Sixth Semester SEC.B</option>
+             <option value="class">BHM First Semester</option>
+             <option value="class">BHM Second Semester</option>
+             <option value="class">BHM Third Semester</option>
+             <option value="class">BHM Fourth Semester</option>
+             <option value="class">BHM Fifth Semester</option>
+             <option value="class">BHM Sixth Semester</option>
+             <option value="class">Cyber Security First Semester</option>
+             <option value="class">Cyber Security Second Semester</option>
+             <option value="class">MBA</option>
+           </select>
+         </form>
+       </div>
+     <!-- Option End -->
+  </body>
 </html>
