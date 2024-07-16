@@ -40,8 +40,50 @@ body{
     margin-left: 1px;;
     border: white 1px solid;
 }
-.bcont{
-    width: 1200;
-    height: 500;
+.addnew{
+    width: 350px;
+    height: 220px;
     background-color: #131140;
+    margin-left: 15px;
+    display: flex;
+    float: left;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.addnew h3{
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: underline;
+
+}
+.addnew button{
+    display: flex;
+    float: left;
+    background-color: #F2811D;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+}
+.addnew button:hover{
+    background-color: white;
+    color: #F2811D;
 }
