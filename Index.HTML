@@ -4,110 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISMT Collage</title>
-    <link rel="icon" href="Assets/Images/Favicon.webp">
-    <style>
-        body{
-    background-image: url('Assets/Images/Login-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.login-box{
-    background-color: #1f5aa6;
-    color: white;
-    border: 2px solid #F2811D;
-    padding: 40px;
-    border-radius: 15px;
-    width: 480px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.input-box{
-    margin: 8px;
-}
-.image{
-    margin: 10px 20px 0 0;
-    display: flex;
-    float: left;
-    width: 80px;
-    height: 70px;
-    border: white 1px solid;
-}
-.header{
-    display: flex;
-    background-color: #131140;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px;
-    width: 350px;
-    height: 40px;
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 90px;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 0 15px 0;
-}
-form{
-    text-align: left;
-    margin: 40px auto;
-    padding: 0 20px 20px 20px;
-    
-}
-.input-box {
-  justify-content: center;
-  align-self: center;
-  margin-left: 80px;
-}
-.input-box label{
-font-size: 1em;
-}
-.input-box input{
-    width: 250px;
-    height: 30px;
-    border-radius: 5px;
-    border: white 1px solid;
-    box-sizing: border-box;
-}
-.remember{
-    margin-left: 80px;
-}
-button{
-    margin-left: 230px;
-    background-color: #F2811D;
-    color: white;
-    border: white 1px solid;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 1em;
-    font-weight: bold;
-    width: 100px;
-    height: 30px;
-}
-    </style>
-    
+    <link rel="icon" href="Images/Favicon.webp">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
         <div class="login-box" >
-            <img src="Assets/Images/logo2.jpg" class="image" alt="ISMT-logo" height="80px" width="80px">
+            <img src="Images/logo2.jpg" class="image" alt="ISMT-logo" height="80px" width="80px">
            <div class="header"> Login</div>
             <form method="post">
                 <div class="input-box">
                     <label>Username</label> <br>
-                    <input type="text" name="username" required placeholder="Enter your username" >
+                    <div class="userbox">
+                        <i class="fa fa-user-circle" aria-hidden="true" style="color: black; size: 10px;"></i> 
+                        <input type="text" title="Username" class="ibox" name="username" required placeholder="Enter your username" >
+                    </div>
                 </div>
                 <div class="input-box">
                     <label>Password</label> <br>
-                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div class="passbox">
+                        <i class="fa fa-lock" aria-hidden="true" style="color: black;"></i>   
+                        <input type="password" title="Password" class="ibox" name="password" placeholder="Enter your password" required>
+                        <i class="fa fa-eye" aria-hidden="true" style="color: black;"></i>
+                    </div>
                     
                 </div>
                 <div class="remember">
                     <label><input type="checkbox">Remember me</label>
+                    <a href="forgetpass.html" title="Forget Password?" target="_blank">Forget Password?</a>
                 </div>
+                <br>
                 <button type="submit">Login</button>
             </form>
         </div>

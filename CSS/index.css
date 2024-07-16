@@ -1,0 +1,120 @@
+body{
+    background-image: url('../Images/Login-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-box{
+    background-color: #1f5aa6;
+    color: white;
+    border: 2px solid #F2811D;
+    padding: 40px;
+    border-radius: 15px;
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image{
+    margin: 10px 20px 0 0;
+    display: flex;
+    float: left;
+    width: 80px;
+    height: 70px;
+    border: white 1px solid;
+}
+.header{
+    display: flex;
+    background-color: #131140;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+}
+form{
+    margin: 40px auto;
+    padding: 0 20px 20px 20px;
+    height: fit-content;    
+}
+.ibox{
+    border: none;
+}
+.ibox:focus{
+    outline: none;
+}
+
+.input-box label{
+font-size: 1em;
+margin-left: 100px;;
+}
+.userbox{
+    background-color: white;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(0, 0, 0) 2px solid;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.passbox{
+    background-color: white;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: rgb(0, 0, 0) 2px solid;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: none;
+    padding-right: 0%;
+}
+button{
+    margin-left: 260px;
+    background-color: #F2811D;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    background-color: white;
+    color: #F2811D;
+}
+.remember{
+    margin-left: 100px;
+}
+.remember label:hover {
+    color: #F2811D;
+}
+.fa-eye{
+    display: flex;
+    float: right;
+    padding-right: 5px;
+}
+a{
+    margin-left: 30px;
+    font-size:smaller ;
+    color: white;
+}
+a:hover{
+    color: #F2811D;
+}
