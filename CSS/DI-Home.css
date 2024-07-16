@@ -3,33 +3,33 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    margin: 0px;
-    padding: auto;
 }
 
 .container{
-    width:1200px;
-    height:auto;
-    margin:0px;
-    padding: 5px;
+    width:1200;
+    height:120px;
+    padding-top: none;
     align-items: center;
     justify-content: center;
     align-self: center;
 }
 
 .logo{
-    width: 310px;
+    width: 240px;
     height: 120px;
     background-color:white ;
     margin-left: 15px;
     display: flex;
     float: left;
+    border: black 1px solid;
 }
 
 .header{
     height:120px;
-    width:875px;
+    width: 980px;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     font-weight: bold;
     font-style: normal;
     font-size: 2.5rem;
@@ -37,12 +37,59 @@ body{
     display: flex;
     float: left;
     margin-right:none;
+    margin-left: 1px;;
+    border: white 1px solid;
+}
+.search{
+    width: 330px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #131140;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #131140;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    padding: 5px;
+}
+.search input::placeholder{
+    color: white;
+}
+.search input:focus{
+    outline: none;
 }
 
-.searchengine{
+
+.option{
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    height: 50px;
+    width: 300px;
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.option select{
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
     background-color: #131140;
-   width: 30px;
-   margin-top: 100px;
-   margin-left:30px ;
-   
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 5px;
 }
