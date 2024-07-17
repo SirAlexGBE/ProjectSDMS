@@ -45,6 +45,7 @@ body{
     height: 180px;
     background-color: #131140;
     display: flex;
+    float: left;
     flex-direction: column; /* Stack elements vertically */
     align-items: center;
     justify-content: space-between; /* Space elements apart */
@@ -86,4 +87,63 @@ body{
     background-color: white;
     color: #F2811D;
     border-color: #F2811D;
+}
+.current {
+    width: 300px;
+    height: 180px;
+    background-color: #131140;
+    display: flex;
+    float: right;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: space-between; /* Space elements apart */
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.current p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: underline;
+    width: 100%; 
+}
+.current .btn {
+   margin-top: 100px;
+   margin-right: 5px;
+   margin-left: 150px;
+}
+.container2 {
+    height: 300px;
+}
+
+.container3 {
+    height: 300px;
+}
+.row {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-md-3 {
+    padding: 5px;
+    width: 280px;
+    height: 300px;
+    border: white 2px solid;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: #131140;
+}
+.col-md-3 .btn {
+    position: inherit;
+    margin-top: 250px;
+    margin-right: 5px;
+    margin-left: 160px;
 }
