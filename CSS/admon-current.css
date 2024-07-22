@@ -1,0 +1,73 @@
+body {
+  background-color: #1f5aa6;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  width: 1200;
+  height: 120px;
+  padding-top: none;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo {
+  width: 240px;
+  height: 120px;
+  background-color: white;
+  margin-left: 15px;
+  display: flex;
+  float: left;
+  border: black 1px solid;
+}
+
+.header {
+  height: 120px;
+  width: 980px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.5rem;
+  background-color: #131140;
+  display: flex;
+  float: left;
+  margin-right: none;
+  margin-left: 1px;
+  border: white 1px solid;
+}
+.class {
+  width: 305px;
+  height: 50px;
+  background-color: #131140;
+  color: white;
+  margin-left: 15px;
+  display: flex;
+  float: left;
+  border: #f2811d 1px solid;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+h2 {
+  text-align: center;
+}
+table {
+  width: 95%;
+  border: rgb(0, 0, 0) 2px solid;
+  background-color: white;
+  color: #000000;
+  margin: 20px;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
