@@ -40,34 +40,39 @@ body{
     margin-left: 1px;;
     border: white 1px solid;
 }
-.addnew{
-    width: 400px;
-    height: 220px;
+.addnew {
+    width: 260px;
+    height: 180px;
     background-color: #131140;
     display: flex;
     float: left;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: space-between; /* Space elements apart */
     border: rgb(255, 255, 255) 2px solid;
     border-radius: 10px;
     padding: 5px;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    color: white;
     margin-top: 20px;
     margin-left: 15px;
 }
-.addnew p{
-    margin-left: 50px;
-    margin-top: 10px;
-    justify-content: center;
+
+.addnew p {
+    margin: 0;
+    padding: 10px 0;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
     color: white;
     text-decoration: underline;
-
+    width: 100%; 
 }
-.btn{
+
+.btn {
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+
+.button {
     background-color: #F2811D;
     color: white;
     border: white 2px solid;
@@ -77,14 +82,81 @@ body{
     font-weight: bold;
     width: 90px;
     height: 30px;
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    justify-content: center;
 }
-.btn:hover{
+.button:hover{
     background-color: white;
     color: #F2811D;
     border-color: #F2811D;
+}
+.current {
+    width: 300px;
+    height: 180px;
+    background-color: #131140;
+    display: flex;
+    float: right;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: space-between; /* Space elements apart */
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+.current p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: underline;
+    width: 100%; 
+}
+.current .btn {
+   position: absolute;
+   margin-top: 130px;
+   margin-right: 5px;
+   margin-left: 150px;
+}
+.container2 {
+    height: 300px;
+}
+
+.container3 {
+    height: 300px;
+}
+.row {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-md-3 {
+    padding: 5px;
+    width: 280px;
+    height: 250px;
+    border: white 2px solid;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: #131140;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.col-md-3 .btn {
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 5px;
+    margin-left: 160px;
+}
+.col-md-3 p {
+    padding: 5px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: underline;
+    width: 100%;
 }
