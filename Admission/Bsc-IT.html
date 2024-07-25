@@ -38,17 +38,114 @@
         industries and businesses.
       </p>
       <div class="details">
-        <div>
+        <button type="button" class="btn" onclick="myFunction()">
           <h4>Course Details</h4>
           <i class="fa fa-plus" aria-hidden="true"></i>
-        </div>
-        <div>
+        </button>
+        <button type="button"class="btn" onclick="myFunction()"">
           <h4>Career Opportunitiesies</h4>
           <i class="fa fa-plus" aria-hidden="true"></i>
-        </div>
-        <div>
+        </button>
+        <button type="button" class="btn" onclick="myFunction()">
           <h4>Scholarship</h4>
           <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <div class="info">
+          <h2>First Year (120 Credits)</h2>
+          <table border="1">
+            <tr>
+              <th>Semester I</th>
+              <th>Credit</th>
+              <th>Semester II</th>
+              <th>Credit</th>
+            </tr>
+            <tr>
+              <td>Programming</td>
+              <td>15</td>
+              <td>SDLC</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Networking</td>
+              <td>15</td>
+              <td>Web Design and Development</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Database Design and Development</td>
+              <td>15</td>
+              <td>Security</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Professional Practice</td>
+              <td>15</td>
+              <td>Managing Computing Project</td>
+              <td>15</td>
+            </tr>
+          </table>
+
+          <h2>Second Year (120 Credits)</h2>
+          <table border="1">
+            <tr>
+              <th>Semester III</th>
+              <th>Credit</th>
+              <th>Semester IV</th>
+              <th>Credit</th>
+            </tr>
+            <tr>
+              <td>Computing Research Project (year long)</td>
+              <td>30</td>
+              <td>Machine Learning</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Business Process Support</td>
+              <td>15</td>
+              <td>Network Security</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Optional Unit: Cloud Computing</td>
+              <td>15</td>
+              <td>Operating Systems</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Optional Unit: Client/Server Computing Systems</td>
+              <td>15</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+
+          <h2>Third Year (120 Credits)</h2>
+          <table border="1">
+            <tr>
+              <th>Semester V</th>
+              <th>Credit</th>
+              <th>Semester VI</th>
+              <th>Credit</th>
+            </tr>
+            <tr>
+              <td>Research</td>
+              <td>20</td>
+              <td>Android Mobile Development</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Product Development</td>
+              <td>20</td>
+              <td>Advanced Data Technologies</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Advanced Cybersecurity</td>
+              <td>20</td>
+              <td>Artificial Intelligence</td>
+              <td>20</td>
+            </tr>
+          </table>
         </div>
       </div>
 
@@ -62,5 +159,11 @@
         width="450"
       />
     </div>
+    <script>
+        function myFunction() {
+          var divinfo = document.getElementById("info");
+          divinfo.style.visibility = "visible";
+        }
+    </script>
   </body>
 </html>
