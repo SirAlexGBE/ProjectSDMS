@@ -105,11 +105,55 @@ body {
   flex-direction: column;
   width: 95%;
   height: 100px;
-  padding: 10px 20px;
-  padding-bottom: 0px;
-  justify-content: space-between;
+  padding: 10px;
   align-items: flex-start;
   border: #f2811d 2px solid;
   border-radius: 10px;
   margin: 10px auto;
+  background-color: #131140;
+  color: white;
+}
+.Reason {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Reason p {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.Decision {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 775px;
+  width: 15%;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Decision button {
+  background-color: #f2811d;
+  color: white;
+  border: white 2px solid;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+}
+
+.Decision button:hover {
+  background-color: white;
+  color: #f2811d;
+  border-color: #f2811d;
 }
