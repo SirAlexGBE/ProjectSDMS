@@ -71,7 +71,7 @@ body {
   border: #f2811d 2px solid;
   width: 1000px;
   height: fit-content;
-  background-color: #131140;
+  background-color: #272b73;
   border-radius: 10px;
   top: 0px;
   margin: 10px auto;
@@ -80,12 +80,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.container2 p {
+.container2 h3 {
+  margin-top: 0px;
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
-  margin-top: 5px;
 }
 .nav {
   position: relative;
@@ -99,4 +99,17 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 80px;
+}
+.Request {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 100px;
+  padding: 10px 20px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: #f2811d 2px solid;
+  border-radius: 10px;
+  margin: 10px auto;
 }
