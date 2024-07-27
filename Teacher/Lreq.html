@@ -1,11 +1,11 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ismt College</title>
     <link rel="icon" href="../Images/Favicon.webp" />
-    <link rel="stylesheet" href="../CSS/T-Schedule.css" />
+    <link rel="stylesheet" href="../CSS/T-Lreq.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -23,6 +23,14 @@
         <h4>ISMT COLLEGE CHITWAN, <br />BHARATPUR-12</h4>
       </div>
     </div>
+    <script>
+      function myFunction() {
+        location.replace("home.html");
+      }
+      function myFunction2() {
+        location.replace("schedule.html");
+      }
+    </script>
     <!-- Header end-->
 
     <!-- Main Body  -->
@@ -31,11 +39,18 @@
       style="background-image: url('../Images/t-background.png')"
     >
       <div class="container2">
-        <i
-          class="fa fa-window-close"
-          aria-hidden="true"
-          onclick="myFunction()"
-        ></i>
+        <div class="nav">
+          <i
+            class="fa fa-backward"
+            aria-hidden="true"
+            onclick="myFunction2()"
+          ></i>
+          <i
+            class="fa fa-window-close"
+            aria-hidden="true"
+            onclick="myFunction()"
+          ></i>
+        </div>
 
         <!-- content -->
       </div>

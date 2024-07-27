@@ -10,6 +10,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script>
+      function myFunction() {
+        location.replace("home.html");
+      }
+      function myFunction2() {
+        location.replace("Lreq.html");
+      }
+    </script>
   </head>
   <body>
     <!-- header Start -->
@@ -86,9 +94,7 @@
               <p id="room no.">Room No.: 201</p>
             </div>
           </div>
-          <button type="button" onclick="window.open('Lreq.html')">
-            Leave Requests
-          </button>
+          <button type="button" onclick="myFunction2()">Leave Requests</button>
         </div>
         <div class="row2">
           <div class="column2">
@@ -101,19 +107,12 @@
               <p id="room no.">Room No.: 201</p>
             </div>
           </div>
-          <button type="button" onclick="window.open('Lreq.html')">
-            Leave Requests
-          </button>
+          <button type="button" onclick="myFunction2()">Leave Requests</button>
         </div>
 
         <!-- content end -->
       </div>
     </div>
     <!-- Main Body end -->
-    <script>
-      function myFunction() {
-        location.replace("home.html");
-      }
-    </script>
   </body>
 </html>
