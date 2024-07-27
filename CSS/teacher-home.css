@@ -71,6 +71,8 @@ body {
   font-weight: bold;
   text-align: center;
   color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
 }
 .button {
   background-color: #f2811d;
