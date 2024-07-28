@@ -150,9 +150,45 @@ input[type="submit"]:hover {
 .row {
   display: flex;
   width: 95%;
-  height: fit-content;
+  height: 100px;
   margin: 5px auto;
   padding: 10px;
   border: #f2811d 2px solid;
   background-color: #131140;
+}
+.column {
+  width: 75%;
+  height: 90px;
+  padding: 10px;
+  background-color: #131140;
+}
+.column p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+}
+.action {
+  width: 15%;
+  height: 90px;
+  padding: 10px;
+  background-color: #131140;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.action button {
+  width: 100px;
+  height: 40px;
+  background-color: #f2811d;
+  color: white;
+  border: white 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.action button:hover {
+  background-color: white;
+  color: #f2811d;
+  border: #f2811d 2px solid;
 }
