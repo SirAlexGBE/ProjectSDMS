@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismt College</title>
+    <link rel="icon" href="../Images/Favicon.webp" />
+    <link rel="stylesheet" href="../CSS/T-homework.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header Start -->
+    <div class="container">
+      <div class="logo">
+        <a href="chooseclass.html">
+          <img src="../Images/ismt-shunderland-logo.png" alt="ismt-logo" />
+        </a>
+      </div>
+      <div class="header">
+        <h4>ISMT COLLEGE CHITWAN, <br />BHARATPUR-12</h4>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        location.replace("home.html");
+      }
+      function myFunction2() {
+        location.replace("Assign-Homework.html");
+      }
+
+      function myFunction3() {
+        location.replace("check-homework.html");
+      }
+    </script>
+    <!-- Header end-->
+
+    <!-- Main Body  -->
+    <div
+      class="main-body"
+      style="background-image: url('../Images/t-background.png')"
+    >
+      <div class="container2">
+        <div class="nav">
+          <i
+            class="fa fa-window-close"
+            aria-hidden="true"
+            onclick="myFunction()"
+          ></i>
+        </div>
+        <h3>Homework</h3>
+        <!-- content -->
+        <div class="action">
+          <button type="button" class="btn" onclick="myFunction2()">
+            Asssign Homework
+          </button>
+          <button type="button" class="btn" onclick="myFunction3()">
+            Check Homework
+          </button>
+        </div>
+        <div class="title">
+          <select name="homework" id="title">
+            <option value="homework">Questionnnaire</option>
+            <option value="homework">Report</option>
+            <option value="homework">Proposal</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <h3>Subbmitted Students</h3>
+          <ol>
+            <li>Bishnu Prasad Kafle</li>
+            <li>Alex Kandel</li>
+            <li>Saajan Bikram Bista</li>
+          </ol>
+        </div>
+        <div class="row">
+          <h3>Pending</h3>
+          <ol>
+            <li>Adhip Haze</li>
+            <li>Bipin Koirala</li>
+            <li>Bikram Bista</li>
+          </ol>
+        </div>
+        <!-- main body -->
+      </div>
+    </div>
+  </body>
+</html>

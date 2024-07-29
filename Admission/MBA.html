@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISMT Collage</title>
+    <link rel="icon" href="../Images/Favicon.webp" />
+    <link rel="stylesheet" href="../CSS/info.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+        .year {
+            margin-top: 20px;
+        }
+        .trimester {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .courses {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- header Start -->
+    <div class="container">
+      <div class="logo">
+        <a href="home.html">
+          <img src="../Images/ismt-shunderland-logo.png" alt="ismt-logo" />
+        </a>
+      </div>
+      <div class="header">
+        <h4>ISMT COLLEGE CHITWAN, <br />BHARATPUR-12</h4>
+      </div>
+    </div>
+    <!-- Header end-->
+    <!-- Main Body  -->
+    <div class="maincon">
+      <h3>Master of Business Administration [MBA]</h3>
+      <p>
+        The curriculum of MBA programs typically includes core courses that provide a broad understanding of business concepts and practices, as well as elective courses that allow students to specialize in a particular area of interest. Many MBA programs also include a capstone project, which allows students to apply the knowledge and skills they have acquired in the program to a real-world business problem or opportunity.
+
+      </p>
+      <div class="details">
+        <button type="button" class="btn" onclick="myFunction()">
+          <h4>Course Details</h4>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <button type="button"class="btn" onclick="myFunction()"">
+          <h4>Career Opportunitiesies</h4>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="btn" onclick="myFunction()">
+          <h4>Scholarship</h4>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="btn" onclick="myFunction()">
+            <h4>Fee Structure</h4>
+            <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+        <div class="info">
+            <div class="year">
+                <h2>Year 1</h2>
+                <div class="trimester">Trimester 1</div>
+                <div class="courses">Financial Management and Control</div>
+                <div class="courses">Strategic Management in an International Context</div>
+                
+                <div class="trimester">Trimester 2</div>
+                <div class="courses">Professional Management and Leadership Development</div>
+                
+                <div class="trimester">Trimester 3</div>
+                <div class="courses">Value Creation in Organizations - Managing Operations and Marketing</div>
+            </div>
+            
+            <div class="year">
+                <h2>Year 2</h2>
+                <div class="trimester">Trimester 1</div>
+                <div class="courses">Innovation, Entrepreneurship and Technology Transfer</div>
+                
+                <div class="trimester">Trimester 2</div>
+                <div class="courses">MBA Research Project</div>
+            </div>
+
+      <!-- Main Body  -->
+    </div>
+    <div class="photo">
+      <img
+        src="../Images/MBA.webp"
+        alt="photo"
+        height="400"
+        width="450"
+      />
+    </div>
+    <script>
+        function myFunction() {
+          var divinfo = document.getElementById("info");
+          divinfo.style.visibility = "visible";
+        }
+    </script>
+  </body>
+</html>

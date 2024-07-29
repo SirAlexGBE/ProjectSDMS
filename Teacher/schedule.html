@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismt College</title>
+    <link rel="icon" href="../Images/Favicon.webp" />
+    <link rel="stylesheet" href="../CSS/T-Schedule.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      function myFunction() {
+        location.replace("home.html");
+      }
+      function myFunction2() {
+        location.replace("Lreq.html");
+      }
+    </script>
+  </head>
+  <body>
+    <!-- header Start -->
+    <div class="container">
+      <div class="logo">
+        <a href="chooseclass.html">
+          <img src="../Images/ismt-shunderland-logo.png" alt="ismt-logo" />
+        </a>
+      </div>
+      <div class="header">
+        <h4>ISMT COLLEGE CHITWAN, <br />BHARATPUR-12</h4>
+      </div>
+    </div>
+    <!-- Header end-->
+
+    <!-- Main Body  -->
+    <div
+      class="main-body"
+      style="background-image: url('../Images/t-background.png')"
+    >
+      <div class="container2">
+        <i
+          class="fa fa-window-close"
+          aria-hidden="true"
+          onclick="myFunction()"
+        ></i>
+
+        <!-- content -->
+
+        <p>Schedule</p>
+        <div class="row">
+          <div class="column">
+            <form action="schedule" method="post">
+              <div>
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date" />
+              </div>
+              <div>
+                <label for=" Start">Start Time:</label>
+                <input type="time" name="Start" id="Start" />
+              </div>
+              <div>
+                <label for="title">Title:</label>
+                <br />
+                <textarea name="title" id="title"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="column">
+            <form action="schedule" method="post">
+              <div>
+                <label for="Room no.">Room No.</label>
+                <input type="text" name="room no." id="room no." />
+              </div>
+              <div>
+                <label for=" End">End Time:</label>
+                <input type="time" name="End" id="End" />
+              </div>
+              <div>
+                <input type="button" value="Add" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <p>Added Schedule</p>
+        <div class="row2">
+          <div class="column2">
+            <div>
+              <p id="date">Date: 2024-01-01</p>
+              <p id="title">Title: SDLC</p>
+            </div>
+            <div>
+              <p id="time">Time: 7:00 - 7:50</p>
+              <p id="room no.">Room No.: 201</p>
+            </div>
+          </div>
+          <button type="button" onclick="myFunction2()">Leave Requests</button>
+        </div>
+        <div class="row2">
+          <div class="column2">
+            <div>
+              <p id="date">Date: 2024-01-02</p>
+              <p id="title">Title: SDLC</p>
+            </div>
+            <div>
+              <p id="time">Time: 7:00 - 7:50</p>
+              <p id="room no.">Room No.: 201</p>
+            </div>
+          </div>
+          <button type="button" onclick="myFunction2()">Leave Requests</button>
+        </div>
+
+        <!-- content end -->
+      </div>
+    </div>
+    <!-- Main Body end -->
+  </body>
+</html>

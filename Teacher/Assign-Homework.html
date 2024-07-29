@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismt College</title>
+    <link rel="icon" href="../Images/Favicon.webp" />
+    <link rel="stylesheet" href="../CSS/T-Assignhw.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header Start -->
+    <div class="container">
+      <div class="logo">
+        <a href="chooseclass.html">
+          <img src="../Images/ismt-shunderland-logo.png" alt="ismt-logo" />
+        </a>
+      </div>
+      <div class="header">
+        <h4>ISMT COLLEGE CHITWAN, <br />BHARATPUR-12</h4>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        location.replace("home.html");
+      }
+      function myFunction2() {
+        location.replace("homework.html");
+      }
+    </script>
+    <!-- Header end-->
+
+    <!-- Main Body  -->
+    <div
+      class="main-body"
+      style="background-image: url('../Images/t-background.png')"
+    >
+      <div class="container2">
+        <div class="nav">
+          <i
+            class="fa fa-backward"
+            aria-hidden="true"
+            onclick="myFunction2()"
+          ></i>
+          <i
+            class="fa fa-window-close"
+            aria-hidden="true"
+            onclick="myFunction()"
+          ></i>
+        </div>
+        <!-- content -->
+        <h3>Assign Homework</h3>
+
+        <div class="assign">
+          <form action="" method="post">
+            <div>
+              <label for="Due date">Due Date:</label>
+              <input type="date" name="date" id="date" />
+            </div>
+            <div>
+              <label for="title">Title:</label>
+              <textarea name="title" id="title"></textarea>
+            </div>
+            <div>
+              <label for="title">Description:</label>
+              <textarea name="title" id="title"></textarea>
+            </div>
+            <div>
+              <label for="title">Upload Files:</label>
+              <input type="file" name="title" id="title" multiple />
+            </div>
+
+            <input type="submit" value="Assign" />
+          </form>
+        </div>
+        <h3>Assigned Homework</h3>
+        <div class="row">
+          <div class="column">
+            <!-- content end-->
+            <p>Title: SDLC</p>
+            <p>Due Date: 2024-01-01</p>
+          </div>
+          <div class="action">
+            <button type="button">View Files</button>
+            <button type="button">Edit</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <!-- content end-->
+            <p>Title: Reoprt</p>
+            <p>Due Date: 2024-01-05</p>
+          </div>
+          <div class="action">
+            <button type="button">View Files</button>
+            <button type="button">Edit</button>
+          </div>
+        </div>
+        <!-- main body -->
+      </div>
+    </div>
+  </body>
+</html>

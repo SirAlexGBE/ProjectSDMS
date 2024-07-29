@@ -46,7 +46,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat; */
   width: 60%;
-  height: 100%;
+  height: auto;
   margin-top: 10px;
   border: #131140 1px solid;
   flex-direction: column;
@@ -75,15 +75,12 @@ body {
 }
 .details {
   width: 45%;
-  height: 65%;
   padding: 20px;
 }
-.details div {
+.btn {
   background-color: #131140;
-  width: 60%;
-  height: 30px;
+  width: 250px;
   border-radius: 10px;
-  padding: 10px;
   display: flex;
   border: white 1px solid;
   text-align: left;
@@ -95,12 +92,12 @@ body {
   flex-direction: row;
 }
 
-.details div i {
+.details button i {
   display: flex;
   float: right;
   font-size: 1em;
   position: absolute;
-  margin-left: 195px;
+  margin-left: 215px;
   color: white;
 }
 .photo {
@@ -111,4 +108,34 @@ body {
   position: absolute;
   margin-left: 780px;
   top: 20%;
+}
+.info {
+  position: absolute;
+  width: 35%;
+  left: 300px;
+  top: 350px;
+  display: flex;
+  border: #1f5aa6 1px solid;
+  flex-direction: column;
+  visibility: hidden;
+  background-color: #131140;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #0056b3;
+  color: white;
 }
