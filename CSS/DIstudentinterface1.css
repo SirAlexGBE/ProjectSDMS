@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 1200;
+  width: 100%;
   height: 120px;
   padding-top: none;
   align-items: center;
