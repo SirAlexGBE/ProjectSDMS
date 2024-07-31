@@ -171,3 +171,33 @@ body {
   width: 1200px;
   margin-left: 15px;
 }
+
+.button1{
+  width: 100px;
+  height: 20px;
+  background-color: #f2811d;
+  color: white;
+  border: white 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+   margin-left: 1000px;
+}
+
+.button2{
+  width: 100px;
+  height: 20px;
+  background-color: #f2811d;
+  color: white;
+  border: white 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+   margin-left: 1000px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
