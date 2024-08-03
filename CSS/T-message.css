@@ -68,35 +68,200 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  border: #f2811d 2px solid;
   width: 1000px;
   height: fit-content;
   background-color: #272b73;
   border-radius: 10px;
   top: 0px;
-  margin: 10px auto;
-  padding: 10px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-.container2 h3 {
-  margin-top: 0px;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-}
-.nav {
-  position: relative;
-  float: right;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 920px;
-  color: #f2811d;
-  font-size: 1.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 80px;
+}
+
+.contact {
+  display: flex;
+  float: left;
+  width: 30%;
+  height: 550px;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: white 2px solid;
+  border-radius: 10px;
+}
+.messages {
+  display: flex;
+  float: inherit;
+  width: 70%;
+  height: 550px;
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border: white 2px solid;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+.nav {
+  position: absolute;
+  left: 96%;
+  color: #f2811d;
+  font-size: 1.5em;
+  display: inline-flex;
+  width: fit-content;
+  height: fit-content;
+}
+.search {
+  padding-left: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 90px;
+}
+.search h2 {
+  display: flex;
+  float: left;
+  width: fit-content;
+  height: fit-content;
+}
+.search i {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 90%;
+  font-size: large;
+  display: inline-flex;
+  width: fit-content;
+  height: fit-content;
+}
+.input {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  width: 95%;
+  height: 30px;
+  border-radius: 10px;
+  font-size: larger;
+  background-color: white;
+}
+.input input {
+  display: flex;
+  float: left;
+  margin-left: 5px;
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  font-size: large;
+  border: none;
+}
+.input input:focus {
+  outline: none;
+}
+
+.input i {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 90%;
+  margin-left: 5px;
+  font-size: large;
+  color: #131140;
+}
+.users {
+  display: flex;
+  position: absolute;
+  width: 99%;
+  height: 450px;
+  top: 90px;
+  left: 0px;
+  flex-direction: column;
+  padding: none;
+  margin: none;
+}
+.user {
+  display: flex;
+  float: left;
+  width: 98%;
+  margin: 0 auto;
+  height: 60px;
+  border: white 2px solid;
+  background-color: #131140;
+  margin-bottom: 3px;
+}
+.user i {
+  position: relative;
+  margin: 5px;
+  font-size: 40px;
+}
+.user h4 {
+  display: flex;
+  position: relative;
+  margin: 5px;
+  font-weight: bold;
+  width: 100%;
+  height: fit-content;
+}
+.user h5 {
+  display: flex;
+  float: right;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 215px;
+  margin-right: none;
+  font-weight: 500;
+  width: 100%;
+  height: fit-content;
+}
+.user p {
+  display: flex;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 55px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+}
+.user-2 {
+  display: flex;
+  float: left;
+  width: 98%;
+  margin: 0 auto;
+  height: 60px;
+  border: white 2px solid;
+  background-color: #131140;
+  margin-bottom: 3px;
+}
+.user-2 i {
+  position: relative;
+  margin: 5px;
+  font-size: 40px;
+}
+.user-2 h4 {
+  display: flex;
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  height: fit-content;
+  font-weight: normal;
+}
+.user-2 h5 {
+  display: flex;
+  float: right;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 215px;
+  margin-right: none;
+  font-weight: 500;
+  width: 100%;
+  height: fit-content;
+}
+.user-2 p {
+  display: flex;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 55px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
 }
