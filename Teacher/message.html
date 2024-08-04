@@ -11,6 +11,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
+  <script>
+    function changename() {
+      document.getElementById("name").innerHTML = "Alex Kandel";
+    }
+
+    function changename2() {
+      document.getElementById("name").innerHTML = "Dimple Kharel";
+    }
+
+    function changename3() {
+      document.getElementById("name").innerHTML = "Sushma Poudel";
+    }
+
+    function changename4() {
+      document.getElementById("name").innerHTML = "Bipin Kumar Yadav";
+    }
+
+    function changename5() {
+      document.getElementById("name").innerHTML = "Saajan Bikram Bista";
+    }
+  </script>
   <body>
     <!-- header Start -->
     <div class="container">
@@ -49,34 +70,54 @@
           </div>
           <div class="users">
             Unread
-            <div class="user" role="button" tabindex="0">
+            <div class="user" role="button" tabindex="0" onclick="changename()">
               <i class="fa fa-user-circle" aria-hidden="true"></i>
               <h4>Alex Kandel</h4>
               <h5>10:00 AM</h5>
               <p>Please check the followings.</p>
             </div>
-            <div class="user" role="button" tabindex="0">
+            <div
+              class="user"
+              role="button"
+              tabindex="0"
+              onclick="changename2()"
+            >
               <i class="fa fa-user-circle" aria-hidden="true"></i>
               <h4>Dimple Kharel</h4>
               <h5>1:00 PM</h5>
               <p>How to setup the server.</p>
             </div>
-            <div class="user" role="button" tabindex="0">
+            <div
+              class="user"
+              role="button"
+              tabindex="0"
+              onclick="changename3()"
+            >
               <i class="fa fa-user-circle" aria-hidden="true"></i>
               <h4>Sushma poudel</h4>
               <h5>7:00 AM</h5>
               <p>Where is the class room.</p>
             </div>
             Earlier
-            <div class="user-2" role="button" tabindex="0">
+            <div
+              class="user-2"
+              role="button"
+              tabindex="0"
+              onclick="changename4()"
+            >
               <i class="fa fa-user-circle" aria-hidden="true"></i>
               <h4>Bipin Kumar Yadav</h4>
               <h5>10:00 AM</h5>
               <p>No homework today?.</p>
             </div>
-            <div class="user-2" role="button" tabindex="0">
+            <div
+              class="user-2"
+              role="button"
+              tabindex="0"
+              onclick="changename5()"
+            >
               <i class="fa fa-user-circle" aria-hidden="true"></i>
-              <h4>Alex Kandel</h4>
+              <h4>Saajan Bista</h4>
               <h5>10:00 AM</h5>
               <p>You: I will check it.</p>
             </div>
@@ -88,7 +129,7 @@
               <i class="fa fa-user-circle" aria-hidden="true"></i>
             </div>
             <div class="name">
-              <h3>Alex Kandel</h3>
+              <h3 id="name">Alex Kandel</h3>
             </div>
             <div class="icon">
               <i class="fa fa-video-camera" aria-hidden="true"></i>
