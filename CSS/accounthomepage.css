@@ -1,0 +1,110 @@
+body {
+  background-color: #1f5aa6;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  width: 1200;
+  height: 120px;
+  padding-top: none;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo {
+  width: 240px;
+  height: 120px;
+  background-color: white;
+  margin-left: 15px;
+  display: flex;
+  float: left;
+  border: black 1px solid;
+}
+
+.header {
+  height: 120px;
+  width: 980px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.5rem;
+  background-color: #131140;
+  display: flex;
+  float: left;
+  margin-right: none;
+  margin-left: 1px;
+  border: white 1px solid;
+}
+
+.box{
+  background-color: #131140;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left:500px ;
+ font-weight: bold;
+  font-size: 1.3em;
+}
+
+.container1{
+  height: 350px;
+}
+
+.row{
+  padding: 5px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+
+}
+
+.col-md-4{
+  padding: 60px;
+  width: 200px;
+  height: 150px;
+  border: white 2px solid;
+  border-radius: 5px;
+  margin: 0px;
+  background-color: #131140;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+
+
+}
+.button {
+  background-color: #F2811D;
+  color: white;
+  border: white 2px solid;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  width: 90px;
+  height: 30px;
+  margin-bottom: 10px;
+
+}
+
+.col-md-4 p {
+  padding: 5px;
+  text-align:center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: underline;
+  width: 100%;
+}
