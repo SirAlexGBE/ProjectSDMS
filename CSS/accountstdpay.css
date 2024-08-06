@@ -1,0 +1,40 @@
+ body{
+    background-color: #1f5aa6;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+  }
+  .logo{
+    width: 240px;
+    height: 120px;
+    background-color:white ;
+    margin-left: 15px;
+    display: flex;
+    float: left;
+    border: black 1px solid;
+  }
+  .container{
+    width:1200;
+    height:120px;
+    padding-top: none;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .header{
+    height:120px;
+    width: 980px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5rem;
+    background-color:#131140;
+    display: flex;
+    float: left;
+    margin-right:none;
+    margin-left: 1px;;
+    border: white 1px solid;
+  }
+  
