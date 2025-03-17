@@ -1,5 +1,5 @@
 # STUDENT DATA MANAGEMENT SYSTEM
-
+## this project was started with a lot of expectations but unfortunately had to abandon due to different circummstances
 Description
 **Student Data Management System (SDMS)** is a sophisticated web-based application tailored for efficient management of student-related operations within a college environment. This comprehensive system comprises five core modules designed to streamline administrative tasks and enhance communication across various facets of academic life.
 
